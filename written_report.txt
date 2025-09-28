@@ -1,0 +1,8 @@
+How did you get the list of packages?
+I obtained the list of packages using apt list --upgradable. I then wrote that list into a txt file in the local directory.
+
+What is the crontab sequence to run the script?
+The crontab sequence for my specific cronjob is 0 2 * * 0 which represents every Sunday at 2am. 
+
+Since this script would require root, how do you install a crontab for root?
+You install the crontab using 'sudo crontab -'
